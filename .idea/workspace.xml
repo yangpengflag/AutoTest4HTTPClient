@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0cf0aac-65cc-4761-a442-234516da46e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/IgnoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/PayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SuiteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/AutoTest4httpclient/target/" />
@@ -22,26 +28,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="6" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="6" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="356" />
+          <entry key="java" value="958" />
           <entry key="txt" value="10" />
+          <entry key="xml" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="356" />
+          <entry key="JAVA" value="958" />
           <entry key="PLAIN_TEXT" value="10" />
+          <entry key="XML" value="126" />
         </counts>
       </usages-collector>
     </session>
@@ -57,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="844">
               <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
               <folding>
                 <element signature="e#212#213#0" expanded="true" />
@@ -79,6 +87,106 @@
                 <element signature="e#759#760#0" expanded="true" />
                 <element signature="e#821#822#0" expanded="true" />
                 <element signature="e#859#860#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SuiteConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#89#90#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/PayTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <element signature="e#85#86#0" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+              <folding>
+                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/IgnoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding>
+                <element signature="e#79#80#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,6 +211,12 @@
         <option value="$PROJECT_DIR$/AutoTest4httpclient/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/LoginTest.java" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/PayTest.java" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SuiteConfig.java" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/IgnoreTest.java" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java" />
       </list>
     </option>
   </component>
@@ -180,6 +294,24 @@
             </path>
             <path>
               <item name="AutoTest4HTTPClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest4HTTPClient" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+              <item name="groups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest4HTTPClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest4HTTPClient" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest4HTTPClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -191,7 +323,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542168259297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542269206024" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -210,23 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BasicAnnotation">
-    <configuration name="BasicAnnotation (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.BasicAnnotation" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.GroupsOnMethod">
     <configuration name="BasicAnnotation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <extension name="coverage">
@@ -243,14 +359,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/abc/workspace/AutoTest4HTTPClient/Chapter5/src/main/resources/suite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter5" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupsOnMethod" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <module name="Chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.groups.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupsOnMethod" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IgnoreTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.IgnoreTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IgnoreTest.ignore2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.IgnoreTest" />
+      <option name="METHOD_NAME" value="ignore2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.BasicAnnotation" />
-      <item itemvalue="TestNG.BasicAnnotation (1)" />
+      <item itemvalue="TestNG.C:/Users/abc/workspace/AutoTest4HTTPClient/Chapter5/src/main/resources/suite.xml" />
+      <item itemvalue="TestNG.IgnoreTest.ignore2" />
+      <item itemvalue="TestNG.IgnoreTest" />
+      <item itemvalue="TestNG.GroupsOnMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.IgnoreTest" />
+        <item itemvalue="TestNG.IgnoreTest.ignore2" />
+        <item itemvalue="TestNG.C:/Users/abc/workspace/AutoTest4HTTPClient/Chapter5/src/main/resources/suite.xml" />
         <item itemvalue="TestNG.BasicAnnotation" />
-        <item itemvalue="TestNG.BasicAnnotation (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +445,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542164567548</updated>
-      <workItem from="1542164572800" duration="3607000" />
+      <workItem from="1542164572800" duration="10665000" />
     </task>
     <task id="LOCAL-00001" summary="添加testng注解">
       <created>1542167727710</created>
@@ -277,30 +458,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicAnnotation - 2018.11.14 at 11h 23m 23s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="C__Users_abc_workspace_AutoTest4HTTPClient_Chapter5_src_main_resources_suite_xml - 2018.11.14 at 17h 22m 59s.xml">
+      <configuration name="C:/Users/abc/workspace/AutoTest4HTTPClient/Chapter5/src/main/resources/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation - 2018.11.14 at 11h 28m 08s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="IgnoreTest_ignore2 - 2018.11.14 at 17h 55m 11s.xml">
+      <configuration name="IgnoreTest.ignore2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation - 2018.11.14 at 11h 34m 25s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="IgnoreTest - 2018.11.14 at 17h 55m 19s.xml">
+      <configuration name="IgnoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation - 2018.11.14 at 11h 45m 17s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="IgnoreTest - 2018.11.14 at 17h 55m 44s.xml">
+      <configuration name="IgnoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation_(1) - 2018.11.14 at 11h 46m 14s.xml">
-      <configuration name="BasicAnnotation (1)" configurationId="TestNG" />
+    <history-entry file="IgnoreTest - 2018.11.14 at 17h 57m 34s.xml">
+      <configuration name="IgnoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation - 2018.11.14 at 11h 53m 12s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="IgnoreTest - 2018.11.14 at 17h 58m 25s.xml">
+      <configuration name="IgnoreTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupsOnMethod - 2018.11.14 at 18h 09m 19s.xml">
+      <configuration name="GroupsOnMethod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupsOnMethod - 2018.11.14 at 18h 17m 20s.xml">
+      <configuration name="GroupsOnMethod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupsOnMethod - 2018.11.15 at 10h 23m 14s.xml">
+      <configuration name="GroupsOnMethod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupsOnMethod - 2018.11.15 at 16h 06m 49s.xml">
+      <configuration name="GroupsOnMethod" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3607000" />
+    <option name="totallyTimeSpent" value="10665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -309,14 +503,14 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49840087" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5021322" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,9 +544,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/PayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="844">
           <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
           <folding>
             <element signature="e#212#213#0" expanded="true" />
@@ -371,6 +587,72 @@
             <element signature="e#759#760#0" expanded="true" />
             <element signature="e#821#822#0" expanded="true" />
             <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SuiteConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/IgnoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
           </folding>
         </state>
       </provider>
