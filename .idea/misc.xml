@@ -7,7 +7,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/AutoTest4httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter6/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
