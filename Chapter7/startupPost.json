@@ -1,0 +1,26 @@
+[
+  {
+    "description":"模拟一个post请求",
+    "request":{
+      "uri":"/postDemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"This is my first moco post demo... "
+    }
+  },
+  {
+    "description":"模拟一个带参的post请求",
+    "request":{
+      "uri":"/postwithparam",
+      "method":"post",
+      "forms": {
+        "name": "huhansan",
+        "sex": "male"
+      }
+      },
+      "response":{
+        "text":"i am come back now...huhansan"
+      }
+    }
+]

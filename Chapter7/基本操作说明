@@ -1,0 +1,21 @@
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8889 -c startupGet.json
+
+
+moco 基本属性，14 known properties:
+"method",   --使用的方法，包含：get、post、delete、head等
+"headers",  --请求头信息
+"json",     --json格式的数据，可以在请求和响应中
+"factory",
+"uri",     -- 项目路径。如/postwithparam
+"text",    -- 文本域，一般用于返回
+"cookies", -- cookies信息
+"xpaths",
+"json_paths",
+"version",
+"file",
+"queries",         --get方法，传参时用
+"path_resource",
+"forms"          --post方法，传参时用
+"redirectTo"    --重定向到某个地址
+
