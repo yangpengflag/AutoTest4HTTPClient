@@ -1,5 +1,19 @@
 [
   {
+    "description":"这是一个会返回cookies信息的get请求",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true"
+      },
+      "text":"Congratulation for get the cookies info."
+    }
+
+  },
+  {
     "description":"这是一个带cookies信息的get请求",
     "request":{
       "uri":"/get/with/cookies",
@@ -27,7 +41,7 @@
       }
     },
     "response":{
-      "status":200,
+      "status":"200",
       "json":{
         "huhansan":"success",
         "status":"1"

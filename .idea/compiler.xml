@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AutoTest4HTTPClient" />
         <module name="Chapter5" />
         <module name="Chapter6" />
+        <module name="Chapter9" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AutoTest4HTTPClient" target="1.5" />
       <module name="Chapter5" target="1.5" />
       <module name="Chapter6" target="6" />
+      <module name="Chapter9" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
