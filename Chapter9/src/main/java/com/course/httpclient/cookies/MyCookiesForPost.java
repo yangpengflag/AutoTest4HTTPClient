@@ -81,10 +81,11 @@ public class MyCookiesForPost {
         StringEntity entity = new StringEntity(param.toString(), "utf-8");
         post.setEntity(entity);
 
-        //声明一个对象来进行响应结果的存储
-        String result;
         //设置cookies信息
         client.setCookieStore(this.cookieStore);
+
+        //声明一个对象来进行响应结果的存储
+        String result;
 
         //执行post方法
         CloseableHttpResponse response = client.execute(post);
