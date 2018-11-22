@@ -67,7 +67,7 @@ public class MyGetMethod {
      * url:ip:port/get/with/param/10/1000
      */
     @RequestMapping(value = "/get/with/param/{start}/{end}")
-    @ApiOperation(value = "RESTFUL风格携带参数访问的get请求")
+    @ApiOperation(value = "RESTFUL风格携带参数访问的get请求",httpMethod = "GET")
     public Map<String,Integer> mygetList(@PathVariable Integer start,@PathVariable Integer end){
         Map<String,Integer> myMap = new HashMap<>();
         myMap.put("鞋子",198);
